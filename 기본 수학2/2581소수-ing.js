@@ -55,7 +55,7 @@ const readFileSyncAddress = '/dev/stdin';
 
 //답2
 let fs = require('fs');
-let input = fs.readFileSync('예제.txt').toString().trim();
+let input = fs.readFileSync('/dev/stdin').toString().trim();
 
 // 어차피 문자는 두개밖에 없으므로 이렇게 배열을 만든다.
 // 이제서야 안 사실이지만 split() 메서드를 이용하면 그냥 문자열이 배열이 된다.
