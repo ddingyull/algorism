@@ -1,0 +1,6 @@
+// 18108 1998년생인 내가 태국에서는 2541년생?!
+const input = require('fs').readFileSync('/dev/stdin').toString().trim();
+let n = Number(input);
+
+console.log(n-543);
+
