@@ -1,6 +1,6 @@
 // 9498 시험 성적
 const input = require('fs').readFileSync('/dev/stdin').toString();
-let test = parseInt(input);
+let test = Number(input);
 
 if(test >= 90) {
   console.log('A');
@@ -13,3 +13,5 @@ if(test >= 90) {
 } else {
   console.log('F');
 }
+
+
